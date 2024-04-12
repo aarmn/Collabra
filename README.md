@@ -1,5 +1,9 @@
 <div dir="rtl">
 
+<div align="center">
+<a href="https://www.figma.com/file/d7d55c8ccxOutbdciFbRI6/Project-Main?type=design&node-id=807%3A9903&mode=design&t=2HOTBnSlPvGGrJ23-1"><img alt="collabra logo" src="logo/Logo-bg.svg" width="500" height="500"></a>
+<h4> برای باز کردن پروتوتایپ روی لوگو پروژه کلیک کنید </h4>
+</div>
 
 # فهرست دیگر مطالب
 ### [۱. دلایل انتخاب فیگما به عنوان ابزار پروتوتایپ ](./doc/whyFigma.md)
