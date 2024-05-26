@@ -1,8 +1,19 @@
 <div dir="rtl">
 
 <div align="center">
-<a href="https://www.figma.com/file/d7d55c8ccxOutbdciFbRI6/Project-Main?type=design&node-id=807%3A9903&mode=design&t=2HOTBnSlPvGGrJ23-1"><img alt="collabra logo" src="logo/Logo-bg.svg" width="350" height="350"></a>
+<img alt="collabra logo" src="logo/Logo-bg.svg" width="350" height="350">
 <h4> برای باز کردن پروتوتایپ روی لوگو پروژه کلیک کنید </h4>
+<h4> 
+<a href="http://collabra.yaramsn.xyz">
+<img alt="collabra logo" src="logo/Logo-bg.svg" width="20" height="20" style="display: inline-block;">
+وب‌سایت شبکه اجتماعی (powered by humhub)
+</a>
+| 
+<a href="https://www.figma.com/file/d7d55c8ccxOutbdciFbRI6/Project-Main?type=design&node-id=807%3A9903&mode=design&t=2HOTBnSlPvGGrJ23-1">
+<img alt="Figma" src="https://brandslogos.com/wp-content/uploads/images/large/figma-logo.png" width="12" height="20" style="display: inline-block;">
+دموی فیگما نسخه موبایل
+</a>
+</h4> 
 </div>
 
 # فهرست دیگر مطالب
