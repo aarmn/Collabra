@@ -1,0 +1,3 @@
+[submodule "humhub/collabra-humhub"]
+	path = humhub/collabra-humhub
+	url = https://github.com/aarmn/humhub-collabra
