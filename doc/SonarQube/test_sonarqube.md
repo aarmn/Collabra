@@ -41,6 +41,7 @@
 # نگهداری
 طبق ruleهای تعریف شده مشکلات گزارش می‌شوند. می‌توانیم چند نمونه از این مشکلات را مشاهده کنیم:
 
+برای مثال در کد javascript توصیه شده که متغیر‌های داخل block ها را به صورت let تعریف شوند.
 <img alt="collabra logo" src="6.png">
 <img alt="collabra logo" src="7.png">
 <img alt="collabra logo" src="8.png">
