@@ -119,35 +119,46 @@
 قابل ذکر است که این عکس از نسخه Premium OSSN می باشد و دارای Story نیز می باشد اما نسخه رایگان آن از این امکانات بهره نمی‌برد.
 
 ### فید
-
-![alt text](<Screenshot 2024-06-27 173102.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 173102.png" align="center">
+</p>
 
 امکان اشتراک گذاری صوت و ویدیو در این بخش وجود ندارد اما برای اشتراک گذاری عکس و لوکیشن مشکلی وجود ندارد.
 امکان تگ دوستان نیز وجود دارد.
 <center>
 	
-![alt text](<Screenshot 2024-06-27 172233.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 172233.png" align="center">
+</p>
 
 </center>
 حریم خصوصی پست دارای دو حالت Public و Friends است.
 
 ### آلبوم
 
-![alt text](<Screenshot 2024-06-27 173432.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 173432.png" align="center">
+</p>
 
 قابلیت گذاشتن یک آلبوم عکس مشاهده می شود که امکان اضافه کردن عکس و حذف آلبوم وجود دارد.
 
-![alt text](<Screenshot 2024-06-27 174211.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 174211.png" align="center">
+</p>
 
 اضافه کردن عکس به این شکل صورت می گیرد.
 
-![alt text](<Screenshot 2024-06-27 174041.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 174041.png" align="center">
+</p>
 
 حریم خصوصی این آلبوم نیز دارای دو حالت Public و Friends است.
 
 ### اطلاعیه ها
 
-![alt text](<Screenshot 2024-06-27 175032.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 175032.png" align="center">
+</p>
 
 در این بخش اطلاعیه هایی از رخداد های اخیر نمایش داده می شود که با کلیک بر روی هر کدام از اطلاعیه های وارد جزئیات بیشتر می شویم.
 
@@ -155,15 +166,21 @@
 
 ### ارسال پیام
 
-![alt text](<Screenshot 2024-06-27 180317.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 180317.png" align="center">
+</p>
 
-![alt text](<Screenshot 2024-06-27 180659.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 180659.png" align="center">
+</p>
 
 نمونه ای از ارسال پیام و پبام های دریافتی مشاهده می‌شود.
 
 ### گروه 
 
-![alt text](<Screenshot 2024-06-27 181804.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 181804.png" align="center">
+</p>
 
 در قسمت گروه قابلیت مشاهده اعضا و درخواست‌ها وجود دارد اما بخشی برای انجمن دیده نمی شود.
 
@@ -172,43 +189,61 @@
 
 #### نمای کلی داشبرد مدیریت
 
-![alt text](<Screenshot 2024-06-27 182805.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 182805.png" align="center">
+</p>
 
-![alt text](<Screenshot 2024-06-27 182529.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 182529.png" align="center">
+</p>
 
 داشبورد مدیریت در حالت کلی نمایی از اطلاعات را به مدیر می دهد که می تواند برای مثال شامل مقدار فعالیت کاربران، تعداد کابران، ورژن OSSN و ... باشد.
 
 #### لیست کاربران
 
-![alt text](<Screenshot 2024-06-27 183329.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 183329.png" align="center">
+</p>
+
 
 لیست کاربران به همراه برخی از اطلاعات آنان برای مدیر قابل مشاهده است.
 
 #### اضافه کردن کاربر
 
-![alt text](<Screenshot 2024-06-27 183810.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 183810.png" align="center">
+</p>
+
 
 مدیر قابلیت اضافه کردن کاربر جدید و اطلاعاتش را دارد.
 
 #### اعطا نقش
 
-![alt text](<Screenshot 2024-06-27 184042.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 184042.png" align="center">
+</p>
 
 برای اعطا نقش به کاربر فقط دو نقش کاربر معمولی و مدیر وجود دارد.
 
 #### تنظیمات سایت
 
-![alt text](<Screenshot 2024-06-27 184348.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 184348.png" align="center">
+</p>
 
 در این بخش میتوان تنظیمات مورد نیاز را انجام داد.
 
 #### پوسته
 
-![alt text](<Screenshot 2024-06-27 185028.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 185028.png" align="center">
+</p>
 
 قابلیت نصب پوسته های محتلف وجود دارد.
 
-![alt text](image.png)
+<p align="center">
+<img src="image.png" align="center">
+</p>
 
 #### کامپوننت
 
@@ -225,8 +260,9 @@
 
 
 ### نسخه Premium
-
-![alt text](<Screenshot 2024-06-27 182142.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 182142.png" align="center">
+</p>
 
 نسخه Premium آن نیز وجود دارد که دارای امکانات بیشتر نسبت به این نسخه است و برای تهیه آن می‌توان اقدام کرد.
 
@@ -437,7 +473,9 @@
 
 ### سطح دسترسی
 
-![alt text](<Screenshot 2024-06-27 204849.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 204849.png" align="center">
+</p>
 
 سطح دسترسی در Elgg دارای چهار سطح فوق است که مدیر میتواند یکی از سطوح را برای پست ها و پیام ها انتخاب کند.
 
@@ -600,7 +638,9 @@
 
 قابلیت Space به خوبی نیاز **انجمن** را فراهم می سازد.
 
-![alt text](<Screenshot 2024-06-27 211436.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 211436.png" align="center">
+</p>
 
 تنظیمات برای این بخش به صورت فوق می باشد که می‌توان تغییرات مورد نیاز را با آن اعمال کرد.
 
@@ -669,17 +709,21 @@
 
 ### اشتراک چند رسانه ای
 
-![alt text](<Screenshot 2024-06-27 214911.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 214911.png" align="center">
+</p>
 
 قابلیت اشتراک صوت و ویدیو نیز مشاهده میشود.
 
-![alt text](<Screenshot 2024-06-27 214735.png>)
+<p align="center">
+<img src="Screenshot 2024-06-27 214735.png" align="center">
+</p>
 
 
 
 ## جمع بندی سه شبکه اجتماعی OSSN ، Elgg و Humhub
 
-### او-اس-اس-ان - OSSN
+<h3 align="right">OSSN</h3>
 
 #### چیرگی نقاط ضعف به نقاط قوت:
 
@@ -695,7 +739,7 @@
 - محدودیت در نقش دادن به کاربر
 
 
-### الگ - Elgg
+<h3 align="right">Elgg</h3>
 
 #### اولویت داشتن کمیت به کفیت در رابطه با ویژگی ها:
 با وجود اینکه OSSN دارای ویژگی های بسیار متنوعی، خصوصا در بخش مدیریتی است اما از نظر کیفتی نسبت به Humhub در سطح پایین تری قرار میگیرد.
@@ -712,8 +756,7 @@
 - منعطف در برابر تغییر
 - پست وبلاگی
 
-
-### هام‌هاب - Humhub
+<h3 align="right">Humhub</h3>
 
 #### توانایی رفع نیاز های پروژه:
 
@@ -740,7 +783,7 @@
   </tr>
   <tr>
     <td>رابط کاربر پسند</td>
-    <td> 5</td> 
+    <td>5</td> 
     <td>6.5</td>
     <td>8</td>
   </tr>
@@ -749,113 +792,97 @@
     <td>3</td> 
     <td>8</td>
     <td>9</td>
-    
   </tr>
-    <tr>
+  <tr>
     <td>پشتیبانی از چندین زبان</td>
     <td>-</td> 
     <td>4</td>
     <td>9</td>
   </tr>
-    </tr>
-    <tr>
+  <tr>
     <td>تنوع  اشتراک گذاری چند رسانه ای</td>
     <td>5</td> 
     <td>8</td>
     <td>9</td>
   </tr>
-    </tr>
-    <tr>
+  <tr>
     <td>ایجاد گروه و رویداد</td>
-    <td>-</td> 
-    <td></td>
-    <td></td>
+    <td>6</td> 
+    <td>8</td>
+    <td>8</td>
   </tr>
-    </tr>
-    <tr>
+  <tr>
     <td> به روز رسانی </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>2</td> 
+    <td>9</td>
+    <td>9</td>
   </tr>
-      <tr>
+  <tr>
     <td> تنوع افزونه و پوسته </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>7</td> 
+    <td>8</td>
+    <td>8</td>
   </tr>
-      <tr>
+  <tr>
     <td> نظرسنجی </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>-</td> 
+    <td>5</td>
+    <td>8</td>
   </tr>
-      <tr>
+  <tr>
     <td> پرسش و پاسخ </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>5</td> 
+    <td>9</td>
+    <td>7</td>
   </tr>
-      <tr>
+  <tr>
     <td> نشانه گذاری </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>-</td> 
+    <td>10</td>
+    <td>9</td>
   </tr>
-      <tr>
+  <tr>
     <td> برقراری ارتباط </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>7</td> 
+    <td>6</td>
+    <td>9</td>
   </tr>
-      <tr>
+  <tr>
     <td> سطوح دسترسی </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>5</td> 
+    <td>9</td>
+    <td>8</td>
   </tr>
-      <tr>
+  <tr>
     <td> انجمن  </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>5</td> 
+    <td>6</td>
+    <td>8</td>
   </tr>
-    </tr>
-      <tr>
+  <tr>
     <td> اعطا نقش  </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>7</td> 
+    <td>10</td>
+    <td>10</td>
   </tr>
-    </tr>
-      <tr>
+  <tr>
     <td>  سفارشی سازی </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>2</td> 
+    <td>6</td>
+    <td>10</td>
   </tr>
-    </tr>
-      <tr>
+  <tr>
     <td> مدیریت کاربر </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+    <td>6</td> 
+    <td>10</td>
+    <td>10</td>
   </tr>
-        <tr>
-    <td> سرعت </td>
-    <td></td> 
-    <td></td>
-    <td></td>
+  <tr>
+    <td> سرعت بارگذاری </td>
+    <td>7</td> 
+    <td>8</td>
+    <td>7</td>
   </tr>
-        <tr>
-    <td>    </td>
-    <td></td> 
-    <td></td>
-    <td></td>
-  </tr>
-
-  
 </table>
-
 
 <div>
