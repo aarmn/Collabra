@@ -4,7 +4,7 @@
 <img alt="collabra logo" src="logo/Logo-bg.svg" width="350" height="350">
 <h4> برای باز کردن پروتوتایپ روی لوگو پروژه کلیک کنید </h4>
 <h4> 
-<a href="http://collabra.yaramsn.xyz">
+<a href="http://collabra.yaramsn.lol">
 <img alt="collabra logo" src="logo/Logo-bg.svg" width="20" height="20" style="display: inline-block;">
 وب‌سایت شبکه اجتماعی (powered by humhub)
 </a>
@@ -18,14 +18,14 @@
 
 # فهرست دیگر مطالب
 ## فاز ۱
-### [۱. دلایل انتخاب فیگما به عنوان ابزار پروتوتایپ ](./doc/whyFigma.md)
-### [۲.  راهنمای پروتوتایپ ](./doc/Prototype.md)
+### [۱. دلایل انتخاب فیگما به عنوان ابزار پروتوتایپ ](./doc/1/whyFigma.md)
+### [۲.  راهنمای پروتوتایپ ](./doc/1/Prototype.md)
 ## فاز ۲
-### [۱. بررسی ۳ شبکه اجتماعی پیشنهادی با معیار‌های کیفی ](doc/CompareSocialMedia/compareSocialMedia.md)
+### [۱. بررسی ۳ شبکه اجتماعی پیشنهادی با معیار‌های کیفی ](doc/2/CompareSocialMedia/compareSocialMedia.md)
 ### [۲. بررسی تطبیق معیار‌های پروژه با شبکه‌های اجتماعی پیشنهادی ]()
-### [۳. گزارش OWASP Zed Attack Proxy (ZAP) ]()
-### [۴. گزارش Acuentix ]()
-### [۵. گزارش SonarQube ](doc/SonarQube/sonarQube.md)
+### [۳. گزارش OWASP Zed Attack Proxy (ZAP) ](doc/2/OwaspZapReport/OwaspZap.md)
+### [۴. گزارش Acuentix ](doc/2/AcunetixReport/Acunetix.md)
+### [۵. گزارش SonarQube ](doc/2/SonarQubeReport/sonarQube.md)
 ## فاز ۳
 ### [۶. گزارش Deployment ]()
 ### [۶. گزارش Profiler ]()
