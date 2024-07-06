@@ -41,98 +41,138 @@
 پس از نصب برنامه Acunetix، آن را اجرا میکنیم. این برنامه بر روی Localhost و پورت 3443 اجرا میشود. پس از وارد کردن ایمیل و رمز عبوری که در مرحله ستاپ برای برنامه درنظر گرفتیم، وارد فضای زیر میشویم. همانطور که قابل مشاهده است، بخش های مختلفی در این برنامه قابل رویت می باشد. برای بررسی امنیتی یک ساعت وارد بخش Targets میشویم و از نوار دسترسی و از قسمت Add target با استفاده از URL پروژه، یک تارگت ایجاد میکنیم. همانطور که در تصویر زیر قابل مشاهده است، پروژه تیم در [آدرس](http://collabra.yaramsn.lol) دیپلوی شده است و این URL را با توضیحات Collabra Project به عنوان یک تارگت ایجاد کردیم و در لیست تارگت ها قابل مشاهده است و چون تابحال اسکنی روی آن رخ نداده، در بخش Last Scan status، Not scanned نمایش داده شده است.
 
 
-![img0](image.png)
+<p align="center">
+<img src="image.png" align="center">
+</p>
 
 سپس در لیست تارگت ها بر روی URL پروژه کلیک میکنیم تا صفحه زیر باز شود که بتوانیم درخواست اسکن را صادر کنیم. در این بخش فرمی نمایش داده می شود که مربوط به سطح اسکن می باشد. تصویر زیر نمایش کاملی از این فرم می باشد.
 
-![img1](image-1.png)
+<p align="center">
+<img src="image-1.png" align="center">
+</p>
 
 ## Business Critically
 
 در بخش Business Critically، سطح اسکن قابل مشاهده است که دارای چهار سطح Low و Normal و High و Critical می باشد که هر سطح، حجم ریکوئست و اهمیت اسکن را مشخص می نماید. برای پروژه از سطح High استفاده می کنیم که در تصویر زیر مشخص است.
 
-![img2](image-2.png)
+<p align="center">
+<img src="image-2.png" align="center">
+</p>
 
 ## Default Scan Profile
 
 
 در بخش Default Scan Profile می توانیم نوع ریسک های وارده بر پروژه در مراحل اسکن را مشخص کنیم که دارای پنج حالت Full Scan، High Risk، High/Medium Risk، Cross-site Scripting و SQL-Injection می باشد و برای پروژه جاری از حالت Full Scan استفاده می نماییم تا همه حالات را بررسی نماید.
 
-![img3](image-3.png)
+<p align="center">
+<img src="image-3.png" align="center">
+</p>
 
 همچنین حالت Continuous Scanning را فعال میکنیم تا اسکن متوقف نشود. در تصویر زیر تنظیمات نهایی مشخص است.
 
-![img4](image-4.png)
+<p align="center">
+<img src="image-4.png" align="center">
+</p>
 
 همچنین برای اینکه لاگین انجام شود، فایل LSR را از طریق Acunetix login sequence editor تولید میکنیم و در بخش زیر قرار میدهیم.
 
-![img5](image-5.png)
+<p align="center">
+<img src="image-5.png" align="center">
+</p>
 
 پس از تکمیل مراحل قبلی، بر روی گزینه Scan کلیک میکنیم که یک اسکن جدیدی را آغاز کنیم. در اینجا مواردی که قبلا تنظیم کرده بودیم نمایش داده می شود.
 
-![img6](image-6.png)
+<p align="center">
+<img src="image-6.png" align="center">
+</p>
 
 در صورتی که مراحل قبلی را به درستی انجام داده باشیم و همچنین License نرم افزار به درستی اعمال شده باشد، صفحه زیر باز شده و در بخش Activity عبارت In Progress نمایش داده می شود. توجه کنید در صورت مشکل در License اسکن پس از چند ثانیه Failed می شود و در بخش Events می توان error 70 را مشاهده کرد. پس از باز شدن صفحه زیر عملیات اسکن شروع می شود که در بخش های بعدی، هر قسمت از این صفحه را توضیح می دهیم.
 
-![img7](image-7.png)
+<p align="center">
+<img src="image-7.png" align="center">
+</p>
 
 تصویر زیر نمایشی از وضعیت اسکن در حال اجرا می باشد:
 
-![img8](image-8.png)
+<p align="center">
+<img src="image-8.png" align="center">
+</p>
 
 در بخش Activity می توانیم نحوه پیشرفت اسکن را مشاهده کنیم. مقدار پیشرفت اسکن در بخش overall Process نمایش داده شده است همچنین برخی از اتفاقات مراحل اسکن نیز در لیست قابل مشاهده است. بعنوان مثال در بخش اول نمایش داده شده است که درخواستی به [لینک](http://5.75.227.9) فرستاده شده است که آن درخواست به [صفحه](http://collabra.yaramsn.lol/user/auth/login ) هدایت شده است.
 
-![img9](image-9.png)
+<p align="center">
+<img src="image-9.png" align="center">
+</p>
 
 در بخش زیر جزئیاتی از مراحل اسکن نمایش داده می شود. مدت زمان جریان اسکن، تعداد ریکوئست های وارد شده بر پروژه و همچنین میانگین زمان پاسخ و تعداد مسیرهای شناسایی شده مشخص شده اند.
 
-![img10](image-10.png)
+<p align="center">
+<img src="image-10.png" align="center">
+</p>
 
 ## Target Information
 
 در بخش Target Information، اطلاعاتی راجب سایتی که اسکن بر روی آن اعمال شده نمایش داده می شود. در اولین بخش Address آن، در دومین بخش Server که در این پروژه nginx/1.24.0 و در بخش سومین operating system فعال، در بخش چهارم Identified Technologies که تکنولوژی مورد توسعه پروژه (در این پروژه PHP) و در بخش پنجم Responsive بودن سایت نمایش داده شده است.
 
-![img11](image-11.png)
+<p align="center">
+<img src="image-11.png" align="center">
+</p>
 
 ## Latest Alert
 
 در بخش Latest Alert مشکلات امنیتی حاصل از اسکن نمایش داده می شود که در بخش های بعدی بطور کامل آنها را تحلیل و بررسی می کنیم.
 
-![img12](image-12.png)
+<p align="center">
+<img src="image-12.png" align="center">
+</p>
 
 ## Discovered Hosts
 
 در قسمت Discovered Hosts هم، هاست هایی که از طریق پروژه به آنها درخواست یا ریدایرکتی اعمال شده است مشخص شده اند.
 
-![img13](image-13.png)
+<p align="center">
+<img src="image-13.png" align="center">
+</p>
 
 پس از پایان اسکن در بخش Activity عبارت In progress تبدیل به Failed می شود اما اسکن بطور کامل انجام شده است.
 
 برای تولید فایل LSR که مربوط به لاگین کردن اتوماتیک در بخش اسکن می باشد، به Acuentix Login sequence record میرویم.
 
-![img14](image-14.png)
+<p align="center">
+<img src="image-14.png" align="center">
+</p>
 
 پس از اینکه وارد برنامه Login Sequence Recorder شدیم، دکمه ریکورد را فعال میکنیم و سپس URL سایت را جستجو میکنیم، اطلاعات کاربری را وارد میکنیم و وارد سایت میشویم سپس ریکورد را متوقف میکنیم و از طریق بخش Save as فایل LSR را دریافت می نماییم.
 
-![img28](image-28.png)
+<p align="center">
+<img src="image-28.png" align="center">
+</p>
 
 برای اینکه مطمئن شویم تمام نتایج حاصل بر اساس تست های امنیتی بوده، نیاز است تا در مرحله کانفینگ اسکن، تیک Acusensor را فعال نماییم.
 
-![img29](image-29.png)
+<p align="center">
+<img src="image-29.png" align="center">
+</p>
 
 ## خروجی ها و بررسی مشکلات امنیتی
 
 پس از اتمام اسکن، میتوانیم بخش های مختلف را تحلیل کنیم:
 
-![img15](image-15.png)
+<p align="center">
+<img src="image-15.png" align="center">
+</p>
 
 در بخش vulnerabilities می توانیم تهدیدات شناسایی شده را مشاهده کنیم که دارای سطوح critical، Medium، Low و informational هستند که در ادامه آن ها را تحلیل می کنیم.
 
-![img16](image-16.png)
+<p align="center">
+<img src="image-16.png" align="center">
+</p>
 
 ## Development configuration files:
 
-![img17](image-17.png)
+<p align="center">
+<img src="image-17.png" align="center">
+</p>
 
 <ul>
 <li>
@@ -218,7 +258,9 @@
 
 ## Clickjacking: CSP frame-ancestors missing
 
-![img18](image-18.png)
+<p align="center">
+<img src="image-18.png" align="center">
+</p>
 
 <ul>
 <li>
@@ -384,21 +426,22 @@
 
 در بخش scan statics میتوانیم جزئیات Operations و Locations را مشاهده کنیم.
 
-![img19](image-19.png)
+<p align="center">
+<img src="image-19.png" align="center">
+</p>
 
 ## گزارشات
 
 همچنین برخی گزارش هایی که از طریق acunetix دریافت شده که شامل توضیحات مطرح می باشد در ادامه نمایش داده شده است که از بخش reports قابل دریافت است. 
 
-![img20](image-20.png)
+<p align="center">
+ <img src="image-20.png" align="center">
+ <img src="image-21.png" align="center">
+ <img src="image-22.png" align="center">
+ <img src="image-23.png" align="center">
+ <img src="image-24.png" align="center">
+</p>
 
-![img21](image-21.png)
-
-![img22](image-22.png)
-
-![img23](image-23.png)
-
-![img24](image-24.png)
 
 همچنین با توجه به وجود نسخه دمو از هام هاب در  این [لینک](https://collabra.yaramsn.lol/en/create)، یک نسخه دمو نیز در این وبسایت ایجاد کردیم و یک تست امنیتی نیز از آن گرفتیم و نتایج را در زیر مشاهده می کنیم.
 
