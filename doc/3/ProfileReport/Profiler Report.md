@@ -147,9 +147,11 @@ https://kcachegrind.github.io/html/GUIAreas.html
 ### تابع `php::PDOStatement->execute` 
 اینن تابع ۳۱۳ بار در این بخش فراخوانی شده و به صورت زیر می‌باشد:
 <p align="center">
-<img src="[Pasted image 20240708000211.png" align="center">
+<img src="Pasted image 20240708000211.png" align="center">
 </p>
+
 این تابع از مسیر نشان داده شده در گراف بالا، فراخوانی شده و خلاصه‌ای از تعداد دفعات فراخوانی شدن این تابع در بخش All Callers نشان داده شده است.
+<br>
 این تابع، Callee Map مطابق زیر دارد و نشان می‌دهد که تمام زمان اختصاص یافته به این تابع، در همین تابع صرف شده و همان طور که در بالا مشخص است، در واقع گره پایانی گراف است:
 <p align="center">
 <img src="Pasted image 20240708001213.png" align="center">
@@ -164,6 +166,8 @@ https://kcachegrind.github.io/html/GUIAreas.html
 </p>
 
 این تابع از مسیر نشان داده شده در گراف بالا، فراخوانی شده و خلاصه‌ای از تعداد دفعات فراخوانی شدن این تابع در بخش All Callers نشان داده شده است.
+<br>
+
 این تابع، Callee Map مطابق زیر دارد و نشان می‌دهد که بخش زیادی از  زمان اختصاص یافته به این تابع، در همین تابع و `BaseYii::autoload` صرف شده است:
 <p align="center">
 <img src="Pasted image 20240708001434.png" align="center">
@@ -178,6 +182,8 @@ https://kcachegrind.github.io/html/GUIAreas.html
 </p>
 
 این تابع از مسیر نشان داده شده در گراف بالا، فراخوانی شده و خلاصه‌ای از تعداد دفعات فراخوانی شدن این تابع در بخش All Callers نشان داده شده است.
+<br>
+
 این تابع، Callee Map مطابق زیر دارد و نشان می‌دهد که بخش زیادی از  زمان اختصاص یافته به این تابع، در همین تابع صرف شده است و در صورت تمایع به بهینه‌سازی، باید در خود این تابع تغییراتی اعمال کنیم:
 <p align="center">
 <img src="Pasted image 20240708001606.png" align="center">
