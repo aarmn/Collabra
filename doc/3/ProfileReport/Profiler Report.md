@@ -12,6 +12,7 @@
 <p align="center">
 <img src="Pasted image 20240701175150.png" align="center">
 </p>
+<br>
 
 # توضیحات QCacheGrind (KCacheGrind)
 https://kcachegrind.github.io/html/GUIAreas.html
@@ -19,11 +20,10 @@ https://kcachegrind.github.io/html/GUIAreas.html
 توضیحات منوی این برنامه به شرح زیر می‌باشد:
 <br>
 (با فعال کردن گزینه % تمام زمان‌های ذکر شده در برنامه را به صورت نسبی خواهیم داشت.)
-
+<br>
 <p align="center">
 <img src="Pasted image 20240703112942.png" align="center">
 </p>
-
 <b>Incl. (Inclusive Time):</b> زمانی که توسط تابع نوشته شده در این فایل صرف می‌کند تا اجرا شود.
 <br>
 <b>Self (Self Time):</b>زمانی که صرف اجرای کد درونی این فایل شده و بدون در نظر گرفتن زمان مصرف شده توسط سایر تابع های فراخوانی شده توسط آن
@@ -34,7 +34,7 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <br>
 <b>Location:</b> محل قرارگیری فایل مورد بررسی
 <br>
-
+<br>
 <p align="center">
 <img src="Pasted image 20240703113019.png" align="center">
 </p>
@@ -44,31 +44,36 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <b>Callers:</b> توابعی که تابع مد نظر را فراخوانی کرده‌اند.
 <br>
 که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
+<br>
 
 <p align="center">
 <img src="Pasted image 20240703113625.png" align="center">
 </p>
 <b>All Callers:</b> همه توابعی که منجر به فراخوانی این تابع شده ان، فارغ از فاصله آن‌ها.
 <br>
-که در زیرمنوی Distance، می‌توان مشاهده نمود که چند مرحله فراخوانی انجام شده تا از تابع مورد نظر به تابع نمایش داده شده برسیم. (رابطه از نوع parent، grandparanet یا دورتر)
-
+که در زیرمنوی Distance، می‌توان مشاهده نمود که چند مرحله فراخوانی انجام شده تا از تابع مورد نظر به تابع نمایش داده شده برسیم. (رابطه از نوع parent ،grandparent یا دورتر)
+<br>
+<br>
 <p align="center">
 <img src="Pasted image 20240703113645.png" align="center">
 </p>
 <b>Callee Map:</b> نمایشی بصری که در آن هر منطقه با فضایی که اشغال کرده، نشان‌دهنده زمان صرف شده برای آن تابع است.
-
+<br>
+<br>
 <p align="center">
 <img src="Pasted image 20240703114457.png" align="center">
 </p>
 <b>Callees:</b> توابعی که توسط تابع مد نظر، فراخوانی شده اند.
 <br>
 که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
-
+<br>
+<br>
 <p align="center">
 <img src="Pasted image 20240703114636.png" align="center">
 </p>
 <b>Call Graph:</b> نمایشی گرافی از روند فراخوانی توابع در این بخش از برنامه نشان می‌دهد هر تابع فراخوانی‌شده چند درصد از زمان کل مصرف‌شده را به خود اختصاص می‌دهد.
-
+<br>
+<br>
 <p align="center">
 <img src="Pasted image 20240703115112.png" align="center">
 </p>
