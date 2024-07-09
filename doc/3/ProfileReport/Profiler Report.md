@@ -34,6 +34,7 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <b>Location:</b> محل قرارگیری فایل مورد بررسی
 <br>
 <br>
+<br>
 <p align="center">
 <img src="Pasted image 20240703113019.png" align="center">
 </p>
@@ -43,6 +44,7 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <b>Callers:</b> توابعی که تابع مد نظر را فراخوانی کرده‌اند.
 <br>
 که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
+<br>
 <br>
 
 <p align="center">
