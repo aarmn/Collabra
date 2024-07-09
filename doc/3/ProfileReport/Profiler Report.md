@@ -39,12 +39,14 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <img src="Pasted image 20240703113045.png" align="center">
 </p>
 <b>Callers:</b> توابعی که تابع مد نظر را فراخوانی کرده اند.
+<br>
 که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
 
 <p align="center">
 <img src="Pasted image 20240703113625.png" align="center">
 </p>
 <b>All Callers:</b> همه توابعی که منجر به فراخوانی این تابع شده ان، فارغ از فاصله آن ها.
+<br>
 که در زیرمنوی Distance، می‌توان مشاهده نمود که چند مرحله فراخوانی انجام شده تا از تابع مورد نظر به تابع نمایش داده شده برسیم. (رابطه از نوع parent، grandparanet یا دورتر)
 
 <p align="center">
@@ -56,6 +58,7 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <img src="Pasted image 20240703114457.png" align="center">
 </p>
 <b>Callees:</b> توابعی که توسط تابع مد نظر، فراخوانی شده اند.
+<br>
 که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
 
 <p align="center">
@@ -67,6 +70,7 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <img src="Pasted image 20240703115112.png" align="center">
 </p>
 <b>All Callees:</b> همه توابعی کهاین تابع فراخوانی می‌کند را نمایش می‌دهد.
+<br>
 با بررسی دقیق تر متوجه می‌شویم که در این منو، می‌توانیم درصد زمان مصرف شده توسط هر بخش، فاصله تابع مورد بررسی تا هر یک از تابع های فراخوانی‌شده و تعداد دفعات فراخوانی‌شدن هر تابع را نیز مشاهده کنیم.
 <p align="center">
 <img src="Pasted image 20240703115534.png" align="center">
@@ -93,9 +97,10 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <p align="center">
 <img src="Pasted image 20240703120940.png" align="center">
 </p>
-این بخش در SetUpController اتفاق می افتد.
-قابل توجه است که در ادامه مجددا این دو مسیر به یک تابع واحد ختم می شوند و تنها حدود 10% از زمان مصرفی کل صرف این تقاطع و شروطش می شود.
-
+این بخش در SetUpController اتفاق می‌افتد.
+<br>
+قابل توجه است که در ادامه مجددا این دو مسیر به یک تابع واحد ختم می‌شوند و تنها حدود 10% از زمان مصرفی کل صرف این تقاطع و شروطش شده است.
+<br>
 در پایان گراف خواهیم دید که 70.91% از 99.96% از زمان مصرفی، در تابع curl_exec از php:internal صرف شده است.
 <p align="center">
 <img src="Pasted image 20240703150548.png" align="center">
