@@ -7,7 +7,9 @@
 <img src="Pasted image 20240701175037.png" align="center">
 </p>
 در صورتی که فایل های خروجی XDebug را در این برنامه باز کنیم، نمودارها و نمایشی مانند زیر خواهیم داشت:
-![[Pasted image 20240701175150.png]]
+<p align="center">
+<img src="Pasted image 20240701175150.png" align="center">
+</p>
 
 # QCacheGrind (KCacheGrind) Explanation
 https://kcachegrind.github.io/html/GUIAreas.html
@@ -15,15 +17,22 @@ https://kcachegrind.github.io/html/GUIAreas.html
 توضیحات منوی این برنامه به شرح زیر می‌باشد:
 (با فعال کردن گزینه % تمام زمان های ذکر شده در برنامه را به صورت نسبی خواهیم داشت.)
 
-![[Pasted image 20240703112942.png]]
+<p align="center">
+<img src="Pasted image 20240703112942.png" align="center">
+</p>
+
 <b>Incl. (Inclusive Time):</b> زمانی که توسط تابع نوشته شده در این فایل صرف می کند تا اجرا شود.
 <b>Self (Self Time):</b>زمانی که صرف اجرای کد درونی این فایل شده و بدون در نظر گرفتن زمان مصرف شده توسط سایر تابع های فراخوانی شده توسط آن
 <b>Called:</b> تعداد دفعاتی که این تابع توسط سایر توابع فراخوانی شده است.
 <b>Function:</b> نام تابع مورد بررسی
 <b>Location:</b> محل قرارگیری فایل مورد بررسی
 
-![[Pasted image 20240703113019.png]]
-![[Pasted image 20240703113045.png]]
+<p align="center">
+<img src="Pasted image 20240703113019.png" align="center">
+</p>
+<p align="center">
+<img src="Pasted image 20240703113045.png" align="center">
+</p>
 <b>Callers:</b> توابعی که تابع مد نظر را فراخوانی کرده اند.
 که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
 
