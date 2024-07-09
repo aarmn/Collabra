@@ -3,7 +3,9 @@
 
 نرم‌افزار QCacheGrind را از [این لینک](https://sourceforge.net/projects/qcachegrindwin/) دانلود کرده و به صورت Portable و بدون نصب می‌توانیم از آن استفاده کنیم.
 محیط این برنامه به صورت زیر می باشد:
-![[Pasted image 20240701175037.png]]
+<p align="center">
+<img src="Pasted image 20240701175037.png" align="center">
+</p>
 در صورتی که فایل های خروجی XDebug را در این برنامه باز کنیم، نمودارها و نمایشی مانند زیر خواهیم داشت:
 ![[Pasted image 20240701175150.png]]
 
