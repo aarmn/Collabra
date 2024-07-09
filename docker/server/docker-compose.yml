@@ -44,7 +44,7 @@ services:
       - "xdebug:/home/vsftpd/vsftpd"
     environment:
       FTP_USER: vsftpd
-      FTP_PASS: PotatoMan1@@@@
+      FTP_PASS: REDACTED
       PASV_ADDRESS: "188.121.107.234"
       PASV_MIN_PORT: 21000
       PASV_MAX_PORT: 21010
