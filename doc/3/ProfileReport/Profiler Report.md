@@ -1,4 +1,4 @@
-# QCacheGrind (KCacheGrind) Installation 
+# نصب QCacheGrind (KCacheGrind)  
 ------------------
 
 نرم‌افزار QCacheGrind را از [این لینک](https://sourceforge.net/projects/qcachegrindwin/) دانلود کرده و به صورت Portable و بدون نصب می‌توانیم از آن استفاده کنیم.
@@ -11,7 +11,7 @@
 <img src="Pasted image 20240701175150.png" align="center">
 </p>
 
-# QCacheGrind (KCacheGrind) Explanation
+# توضیحات QCacheGrind (KCacheGrind)
 https://kcachegrind.github.io/html/GUIAreas.html
 
 توضیحات منوی این برنامه به شرح زیر می‌باشد:
@@ -36,40 +36,63 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <b>Callers:</b> توابعی که تابع مد نظر را فراخوانی کرده اند.
 که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
 
-![[Pasted image 20240703113625.png]]
+<p align="center">
+<img src="Pasted image 20240703113625.png" align="center">
+</p>
 <b>All Callers:</b> همه توابعی که منجر به فراخوانی این تابع شده ان، فارغ از فاصله آن ها.
 که در زیرمنوی Distance، می‌توان مشاهده نمود که چند مرحله فراخوانی انجام شده تا از تابع مورد نظر به تابع نمایش داده شده برسیم. (رابطه از نوع parent، grandparanet یا دورتر)
 
-![[Pasted image 20240703113645.png]]
+<p align="center">
+<img src="Pasted image 20240703113645.png" align="center">
+</p>
 <b>Callee Map:</b> نمایشی بصری که در آن هر منطقه با فضایی که اشغال کرده، نشان‌دهنده زمان صرف شده برای آن تابع است.
 
-![[Pasted image 20240703114457.png]]
+<p align="center">
+<img src="Pasted image 20240703114457.png" align="center">
+</p>
 <b>Callees:</b> توابعی که توسط تابع مد نظر، فراخوانی شده اند.
 که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
 
-![[Pasted image 20240703114636.png]]
+<p align="center">
+<img src="Pasted image 20240703114636.png" align="center">
+</p>
 <b>Call Graph:</b> نمایشی گرافی از روند فراخوانی توابع در این بخش از برنامه نشان می‌دهد هر تابع فراخوانی‌شده چند درصد از زمان کل مصرف شده را به خود اختصاص می‌دهد.
 
-![[Pasted image 20240703115112.png]]
+<p align="center">
+<img src="Pasted image 20240703115112.png" align="center">
+</p>
 <b>All Callees:</b> همه توابعی کهاین تابع فراخوانی می‌کند را نمایش می‌دهد.
 با بررسی دقیق تر متوجه می‌شویم که در این منو، می‌توانیم درصد زمان مصرف شده توسط هر بخش، فاصله تابع مورد بررسی تا هر یک از تابع های فراخوانی‌شده و تعداد دفعات فراخوانی‌شدن هر تابع را نیز مشاهده کنیم.
-![[Pasted image 20240703115534.png]]
+<p align="center">
+<img src="Pasted image 20240703115534.png" align="center">
+</p>
 <b>Caller Map:</b> نمایشی بصری که در آن هر منطقه با فضایی که اشغال کرده، نشان دهنده زمان صرف شده برای آن تابع است.
 
 # تحلیل خروجی XDebug در QCahceGrind برای HumHub در حالت عادی (بدون اعمال load)
 --------------------
 در یک بررسی اجمالی، متوجه خواهیم شد که تابع main  در `index.php` حدود 99.96% زمان مصرف شده توسط کل برنامه را به خود اختصاص داده.
-![[Pasted image 20240703120018.png]]
-![[Screenshot 2024-07-03 121612.png]]
+<p align="center">
+<img src="Pasted image 20240703120018.png" align="center">
+</p>
+<p align="center">
+<img src="Screenshot 2024-07-03 121612.png" align="center">
+</p>
+
 
 با انتخاب آن برای بررسی دقیق تر در منوی سمت راست با گراف زیر رو به رو می شویم که نشان دهنده روند فراخوانی توابع و در واقع اجرای برنامه است:
-![[Pasted image 20240703120602.png]]
+<p align="center">
+<img src="Pasted image 20240703120602.png" align="center">
+</p>
 با مشاهده گراف، متوجه می شویم که اکثر زمان صرف شده در نیمه راست گراف جریان دارد، در نتیجه به بررسی دقیق تر آن می پردازیم.
 در ادامه متوجه می شویم که هر تابع تنها درصد کمی از زمان اختصاص داده شده به خودش را مصرف کرده و باقی آن به ادامه گراف اختصاص داده شده است. این روند تا جایی ادامه خواهد داشت که مجددا به یک دو راهی دیگر در گراف می رسیم:
-![[Pasted image 20240703120940.png]]
+<p align="center">
+<img src="Pasted image 20240703120940.png" align="center">
+</p>
 این بخش در SetUpController اتفاق می افتد.
 قابل توجه است که در ادامه مجددا این دو مسیر به یک تابع واحد ختم می شوند و تنها حدود 10% از زمان مصرفی کل صرف این تقاطع و شروطش می شود.
 
 در پایان گراف خواهیم دید که 70.91% از 99.96% از زمان مصرفی، در تابع curl_exec از php:internal صرف شده است.
+<p align="center">
+<img src="Pasted image 20240703150548.png" align="center">
+</p>
 
-![[Pasted image 20240703150548.png]]
