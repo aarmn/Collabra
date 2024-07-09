@@ -1,0 +1,63 @@
+services:
+  humhub:
+    image: mriedmann/humhub:stable
+    container_name: humhub_webserver
+    stop_grace_period: 30s
+    networks:
+      - collabra-net
+    depends_on:
+      - db
+    ports:
+      - "80:80"
+    volumes:
+      - "config:/var/www/localhost/htdocs/protected/config"
+      - "uploads:/var/www/localhost/htdocs/uploads"
+      - "modules:/var/www/localhost/htdocs/protected/modules"
+      - "xdebug:/log"
+    environment:
+      HUMHUB_DB_USER: collabra-db
+      HUMHUB_DB_PASSWORD: REDACTED
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+  db:
+    image: mariadb:10.2
+    container_name: database
+    networks:
+      - collabra-net
+    hostname: collabra-db
+    stop_grace_period: 30s
+    environment:
+      MYSQL_ROOT_PASSWORD: REDACTED
+      MYSQL_DATABASE: collabra-db
+      MYSQL_USER: collabra-db
+      MYSQL_PASSWORD: REDACTED
+  ftp:
+    image: fauria/vsftpd
+    container_name: ftp_server
+    ports:
+      - "21:21"
+      - "21000-21010:21000-21010"
+    volumes:
+      - "xdebug:/home/vsftpd/vsftpd"
+    environment:
+      FTP_USER: vsftpd
+      FTP_PASS: PotatoMan1@@@@
+      PASV_ADDRESS: "188.121.107.234"
+      PASV_MIN_PORT: 21000
+      PASV_MAX_PORT: 21010
+      FILE_OPEN_MODE: 0666
+      LOCAL_UMASK: 022
+      LOG_STDOUT: "YES"
+
+volumes:
+  config: {}
+  uploads: {}
+  modules: {}
+  xdebug: {}
+
+networks:
+  collabra-net:
+    driver: bridge
