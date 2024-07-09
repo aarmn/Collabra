@@ -142,8 +142,8 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <br>
 <br>
 ## ۳ تابعی که بیشترین زمان را صرف کرده‌اند
-
-### *تابع `php::PDOStatement->execute` که ۳۱۳ بار در این بخش فراخوانی شده و به صورت زیر می‌باشد:
+<br>
+### * تابع `php::PDOStatement->execute` که ۳۱۳ بار در این بخش فراخوانی شده و به صورت زیر می‌باشد:
 <p align="center">
 <img src="[Pasted image 20240708000211.png" align="center">
 </p>
