@@ -498,10 +498,10 @@ xdebug.profiler_output_name = callgrind.out.%p
 
 ### مکانیزم فعال‌سازی (ماشه)
 
-1. GET/POST parameter: XDEBUG_PROFILE
+1. استفاده از پارامتر XDEBUG_PROFILE در GET/POST
 
-   To use this method, you add XDEBUG_PROFILE to your URL or POST data:
-   
+برای استفاده از این روش، به داده پست، یا آدرس سایت، درخواست ‍‍`XDEBUG_PROFILE` را اضافه می‌کنیم
+
 <div dir="ltr">
 
 ```
@@ -510,11 +510,11 @@ https://your-site.com/your-page?XDEBUG_PROFILE
 
 </div>
 
-   This is useful for profiling specific pages or requests on demand.
+این مورد برای profile کردن سریع و یا به اصطلاح on-demand و یا در محیط‌های که دسترسی به کوکی درخواست دهنده نداریم کاربردیست.
 
-2. Cookie: XDEBUG_PROFILE
+2. استنفاده از کوکی XDEBUG_PROFILE
 
-   You can set a cookie named XDEBUG_PROFILE. The value doesn't matter, its presence triggers profiling. This method allows you to profile multiple pages in a session:
+شما می‌توانید، یک کوکی با نام ‍‍`XDEBUG_PROFILE` تنظیم کنید،‌ مقدار آن در حالت بدون secret اهمیت ندارد و صرف وجودش profiling را آغاز می‌کند. مزیت این متد پروفایل کردن چندین صفحه در یک نشست است.
 
 <div dir="ltr">
 
@@ -523,11 +523,11 @@ setcookie('XDEBUG_PROFILE', '1', time() + 3600, '/');
 ```
 </div>
 
-   Many browser extensions exist to easily toggle this cookie.
+افزونه‌های مرورگر بسیاری برای تنظیم این کوکی وجود دارند که جلو‌تر یکی را خواهیم دید.
 
-3. Environment variable: XDEBUG_PROFILE=1
+3. تنظیم متغییر محیطی، XDEBUG_PROFILE=1
 
-   This method is typically used in CLI environments or when you want to profile an entire application:
+این روش معمولا وقتی به کار می‌رود که می‌خواهیم موقتا همه ترافیک برنامه را profile کنیم، یا در صورتی که تست را روی خط فرمان سرویس ران کنیم، برای پروفایل کردن همه برنامه. در کانتینرها نیز این روش به وفور استفاده می‌شود.
 
 <div dir="ltr">
 
