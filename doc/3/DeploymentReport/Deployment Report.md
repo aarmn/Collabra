@@ -39,7 +39,7 @@ composer install
 ```
  سپس آدرس `http://localhost/humhub` را در مرورگر وارد کرده و پس از setup اولیه آن، HumHub ما به صورت کامل و local، آماده است.
 
-## XDebug Setup
+## راه‌اندازی XDebug 
 [داکیومنت نصب XDebug](https://xdebug.org/docs/install)
 [نصب در ویندوز به کمک wizard](https://xdebug.org/wizard)
 به کمک وارد کردن این آدرس در مرورگر http://localhost/dashboard/phpinfo.php اطلاعات مربوط به php خود را دریافت کرده و با copy و paste کردن آن در صفحه wizard می‌توانیم XDebug مناسب php و سیستم خود را دریافت و تنظیم کنیم.
