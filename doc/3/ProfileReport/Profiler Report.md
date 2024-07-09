@@ -41,6 +41,7 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <p align="center">
 <img src="Pasted image 20240703113045.png" align="center">
 </p>
+<br>
 <b>Callers:</b> توابعی که تابع مد نظر را فراخوانی کرده‌اند.
 <br>
 که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
