@@ -1,5 +1,4 @@
 # نصب QCacheGrind (KCacheGrind)  
-------------------
 
 نرم‌افزار QCacheGrind را از [این لینک](https://sourceforge.net/projects/qcachegrindwin/) دانلود کرده و به صورت Portable و بدون نصب می‌توانیم از آن استفاده کنیم.
 محیط این برنامه به صورت زیر می‌باشد:
