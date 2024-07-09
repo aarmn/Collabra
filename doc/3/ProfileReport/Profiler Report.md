@@ -34,7 +34,6 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <b>Location:</b> محل قرارگیری فایل مورد بررسی
 <br>
 <br>
-<br>
 <p align="center">
 <img src="Pasted image 20240703113019.png" align="center">
 </p>
@@ -44,7 +43,8 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <br>
 <b>Callers:</b> توابعی که تابع مد نظر را فراخوانی کرده‌اند.
 <br>
-که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
+
+که در منوی خود تعداد دفعات و زمان صرف‌شده را نیز نشان می‌دهد.
 <br>
 <br>
 
@@ -53,6 +53,7 @@ https://kcachegrind.github.io/html/GUIAreas.html
 </p>
 <b>All Callers:</b> همه توابعی که منجر به فراخوانی این تابع شده ان، فارغ از فاصله آن‌ها.
 <br>
+
 که در زیرمنوی Distance، می‌توان مشاهده نمود که چند مرحله فراخوانی انجام شده تا از تابع مورد نظر به تابع نمایش داده شده برسیم. (رابطه از نوع parent ،grandparent یا دورتر)
 <br>
 <br>
