@@ -27,10 +27,9 @@
 ### [۴. گزارش Acuentix ](doc/2/AcunetixReport/Acunetix.md)
 ### [۵. گزارش SonarQube ](doc/2/SonarQubeReport/sonarQube.md)
 ## فاز ۳
-### [۶. گزارش Deployment ]()
-### [۶. گزارش Profiler ]()
-### [۶. گزارش Optimization ]()
-### [۶. گزارش تست‌ها ]()
+### [۶. گزارش Deployment ](doc/3/DeploymentReport/Deployment Report.md)
+### [۶. گزارش Profiler ](doc/3/ProfileReport/Profiler%20Report.md)
+### [۶. گزارش تست‌ها ](doc/3/TestReport/TestingReport.md)
 
 # توضیح اولیه راجب پروژه
 فاز اول پروژه درباره‌ی ساخت نمونه‌ی اولیه برنامه‌ی شبکه اجتماعی شرکتی می‌باشد. با بررسی نیازمندی‌های مطرح شده اینطور برداشت شد که این برنامه دارای ویژگی‌های سایر برنامه‌ها در این زمینه مثل اینستاگرام(فید) و تلگرام(از  لحاظ ارتباط مستقیم کاربرها ) و ... می‌باشد. 
