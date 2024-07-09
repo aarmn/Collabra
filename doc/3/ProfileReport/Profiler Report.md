@@ -22,10 +22,15 @@ https://kcachegrind.github.io/html/GUIAreas.html
 </p>
 
 <b>Incl. (Inclusive Time):</b> زمانی که توسط تابع نوشته شده در این فایل صرف می کند تا اجرا شود.
+<br>
 <b>Self (Self Time):</b>زمانی که صرف اجرای کد درونی این فایل شده و بدون در نظر گرفتن زمان مصرف شده توسط سایر تابع های فراخوانی شده توسط آن
+<br>
 <b>Called:</b> تعداد دفعاتی که این تابع توسط سایر توابع فراخوانی شده است.
+<br>
 <b>Function:</b> نام تابع مورد بررسی
+<br>
 <b>Location:</b> محل قرارگیری فایل مورد بررسی
+<br>
 
 <p align="center">
 <img src="Pasted image 20240703113019.png" align="center">
