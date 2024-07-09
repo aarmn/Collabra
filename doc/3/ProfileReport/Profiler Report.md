@@ -40,14 +40,12 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <p align="center">
 <img src="Pasted image 20240703113045.png" align="center">
 </p>
-<br>
 <b>Callers:</b> توابعی که تابع مد نظر را فراخوانی کرده‌اند.
 <br>
 
 که در منوی خود تعداد دفعات و زمان صرف‌شده را نیز نشان می‌دهد.
 <br>
 <br>
-
 <p align="center">
 <img src="Pasted image 20240703113625.png" align="center">
 </p>
@@ -63,6 +61,7 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <b>Callee Map:</b> نمایشی بصری که در آن هر منطقه با فضایی که اشغال کرده، نشان‌دهنده زمان صرف شده برای آن تابع است.
 <br>
 <br>
+
 <p align="center">
 <img src="Pasted image 20240703114457.png" align="center">
 </p>
@@ -77,10 +76,11 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <b>Call Graph:</b> نمایشی گرافی از روند فراخوانی توابع در این بخش از برنامه نشان می‌دهد هر تابع فراخوانی‌شده چند درصد از زمان کل مصرف‌شده را به خود اختصاص می‌دهد.
 <br>
 <br>
+
 <p align="center">
 <img src="Pasted image 20240703115112.png" align="center">
 </p>
-<b>All Callees:</b> همه توابعی کهاین تابع فراخوانی می‌کند را نمایش می‌دهد.
+<b>All Callees:</b> همه توابعی که این تابع فراخوانی می‌کند را نمایش می‌دهد.
 <br>
 
 با بررسی دقیق‌تر متوجه می‌شویم که در این منو، می‌توانیم درصد زمان مصرف شده توسط هر بخش، فاصله تابع مورد بررسی تا هر یک از تابع‌های فراخوانی‌شده و تعداد دفعات فراخوانی‌شدن هر تابع را نیز مشاهده کنیم.
@@ -91,6 +91,8 @@ https://kcachegrind.github.io/html/GUIAreas.html
 </p>
 <b>Caller Map:</b> نمایشی بصری که در آن هر منطقه با فضایی که اشغال کرده، نشان دهنده زمان صرف شده برای آن تابع است.
 <br>
+<br>
+
 # تحلیل خروجی XDebug در QCahceGrind برای HumHub در حالت عادی (بدون اعمال load)
 در یک بررسی اجمالی، متوجه خواهیم شد که تابع main  در `index.php` حدود 99.96% زمان مصرف شده توسط کل برنامه را به خود اختصاص داده.
 <p align="center">
