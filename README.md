@@ -27,7 +27,7 @@
 ### [۴. گزارش Acuentix ](doc/2/AcunetixReport/Acunetix.md)
 ### [۵. گزارش SonarQube ](doc/2/SonarQubeReport/sonarQube.md)
 ## فاز ۳
-### [۶. گزارش Deployment ](doc/3/DeploymentReport/Deployment Report.md)
+### [۶. گزارش Deployment ](doc/3/DeploymentReport/Deployment%20Report.md)
 ### [۶. گزارش Profiler ](doc/3/ProfileReport/Profiler%20Report.md)
 ### [۶. گزارش تست‌ها ](doc/3/TestReport/TestingReport.md)
 
