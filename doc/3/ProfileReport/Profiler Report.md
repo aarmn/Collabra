@@ -61,7 +61,7 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <b>Callee Map:</b> نمایشی بصری که در آن هر منطقه با فضایی که اشغال کرده، نشان‌دهنده زمان صرف شده برای آن تابع است.
 <br>
 <br>
-
+<br>
 <p align="center">
 <img src="Pasted image 20240703114457.png" align="center">
 </p>
@@ -70,13 +70,14 @@ https://kcachegrind.github.io/html/GUIAreas.html
 که در منوی خود تعداد دفعات و زمان صرف شده را نیز نشان می‌دهد.
 <br>
 <br>
+<br>
 <p align="center">
 <img src="Pasted image 20240703114636.png" align="center">
 </p>
 <b>Call Graph:</b> نمایشی گرافی از روند فراخوانی توابع در این بخش از برنامه نشان می‌دهد هر تابع فراخوانی‌شده چند درصد از زمان کل مصرف‌شده را به خود اختصاص می‌دهد.
 <br>
 <br>
-
+<br>
 <p align="center">
 <img src="Pasted image 20240703115112.png" align="center">
 </p>
@@ -107,6 +108,7 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <p align="center">
 <img src="Pasted image 20240703120602.png" align="center">
 </p>
+
 با مشاهده گراف، متوجه می‌شویم که اکثر زمان صرف شده در نیمه راست گراف جریان دارد، در نتیجه به بررسی دقیق تر آن می‌پردازیم.
 در ادامه متوجه می‌شویم که هر تابع تنها درصد کمی از زمان اختصاص داده شده به خودش را مصرف کرده و باقی آن به ادامه گراف اختصاص داده شده است. این روند تا جایی ادامه خواهد داشت که مجددا به یک دو راهی دیگر در گراف می‌رسیم:
 <p align="center">
