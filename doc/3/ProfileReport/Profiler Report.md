@@ -141,9 +141,11 @@ https://kcachegrind.github.io/html/GUIAreas.html
 </p>
 <br>
 <br>
-## ۳ تابعی که بیشترین زمان را صرف کرده‌اند:
-<br>
-### تابع `php::PDOStatement->execute` که ۳۱۳ بار در این بخش فراخوانی شده و به صورت زیر می‌باشد:
+
+## ۳ تابعی که بیشترین زمان را به خودشان اختصاص داده‌اند:
+
+### تابع `php::PDOStatement->execute` 
+اینن تابع ۳۱۳ بار در این بخش فراخوانی شده و به صورت زیر می‌باشد:
 <p align="center">
 <img src="[Pasted image 20240708000211.png" align="center">
 </p>
@@ -152,6 +154,8 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <p align="center">
 <img src="Pasted image 20240708001213.png" align="center">
 </p>
+<br>
+<br>
 
 
 ### تابع `BaseYii::autoload` که ۲۷۲۵ بار در این بخش فراخوانی شده و به صورت زیر می‌باشد:
@@ -164,6 +168,8 @@ https://kcachegrind.github.io/html/GUIAreas.html
 <p align="center">
 <img src="Pasted image 20240708001434.png" align="center">
 </p>
+<br>
+<br>
 
 
 ### تابع `PermissionManager` که ۱۸۴ بار در این بخش فراخوانی شده و به صورت زیر می‌باشد:
