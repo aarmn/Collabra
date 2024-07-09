@@ -6,6 +6,7 @@
 <p align="center">
 <img src="Pasted image 20240701175037.png" align="center">
 </p>
+<br> 
 
 در صورتی که فایل‌های خروجی XDebug را در این برنامه باز کنیم، نمودارها و نمایشی مانند زیر خواهیم داشت:
 <p align="center">
